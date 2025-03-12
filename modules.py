@@ -13,7 +13,7 @@ class Window:
         self.root.protocol("WM_DELETE_WINDOW", self.close)
 
     def redraw(self):
-        self.root.update_idletasks()
+        #self.root.update_idletasks()
         self.root.update()
     
     def wait_for_close(self):
